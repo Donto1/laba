@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/* top */
+
+.link{
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+.link_g{
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header{
+    background: #373A3C;
+}
+.text{
+    color: #FFFFFF;
+}
+
+.btn_g{
+    background: #8DD83D;
+    border-radius: 4px;
+    padding: 12px 25px 12px 25px;
+}
+.btn_b{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    padding: 12px 25px 12px 25px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family:"Roboto" ;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+.header{
+    background: #373A3C;
+    padding: 20px 0 20px 0;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu{}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__item{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+}
+.header__input{
+    background: #FFFFFF;
+    border: 11px solid #FFFFFF;
+    border-radius: 4px;
+}
+.intro{
+    background:url(../img/Star-Wars-Battlefront-II-combat.png) no-repeat center center /cover;
+    padding-top: 300px;
+}
+.intro__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+}
+.intro__title{
+    font-size: 36px;
+    line-height: 42px;
+    padding-bottom: 20px;
+}
+
+.intro__text{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.intro__arrows{
+    padding: 50px 58px 0 58px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.intro__buttons{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.intro__button:not(:last-of-type){
+    margin-right: 40px;
+}
+.intro__points{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
+/* mid */
+
+.mid{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.mid__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid__title{
+    padding: 30px 0 30px 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+.mid__text{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+.mid__tables{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.mid__table{
+    background: #FFFFFF;
+    border: 1px solid #8DD83D;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    max-height: 480px;
+}
+.mid__table:not(:last-of-type){
+    margin-right: 44px;
+}
+.mid__table-intro{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    max-height: 480px;
+}
+.mid__table-title{
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 22px;
+    color: #435766;
+
+}
+.mid__table-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 22px;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    color: #435766;
+}
+.mid__table-button{
+    padding: 20px 40px;
+}
+/* end */
+
+.end{
+    padding-top: 120px;
+    padding-bottom: 145px;
+    background: url(../img/Rectangle.png) no-repeat center center/ cover;
+}
+.end__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;  
+    margin-bottom: 10px; 
+}
+
+.end__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 40px 0 40px 0;
+    max-width: 550px;
+}
+
+.end__buttons{
+    display: flex;
+}
+
+.end__button{
+    padding: 20px 50px;
+}
+
+.end__button:not(:last-of-type){
+    margin-right: 40px;
+}
+/* Footer */
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #373A3C;
+    border-radius: 4px;
+}
+
+.footer__wrap{}
+
+.footer__menu{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__list{
+    display: flex;
+}
+
+.footer__item{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.footer__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+}
+
+.footer__text{
+    margin-top: 35px;
+}
+
+.footer__mes{
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.footer__icon{
+    margin-right: 20px;
+}
+
+.footer__line{
+    mix-blend-mode: normal;
+    opacity: 0.35;
+    border: 1px solid #FFFFFF;
+}
+.footer__footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+/*registration*/
+.registration__form {
+    margin: 0% auto;
+    box-sizing: border-box;
+    padding: 40px;
+    background: #FDFDFF;
+    box-shadow: 0px 0px 30px rgba(0, 29, 108, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.registration__title {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #979797;
+}
+.registration__input {
+    padding: 13px 21px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+
+}
+.registration__btn {
+    padding: 15px 90px ;
+    margin-bottom: 16px;
+    background-color: #7DD42F;
+    border: 0px;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FDFDFF;
+}
+.registration__link {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
